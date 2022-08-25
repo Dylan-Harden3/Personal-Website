@@ -1,0 +1,21 @@
+
+input, textarea {
+    display: block;
+    width: 100%;
+    line-height: 2.5rem;
+    font-size: 1rem;
+    padding: 2px 10px;
+    border-radius: 0.25rem;
+}
+
+input:autofill {
+    background-color: #1C2B35 !important;
+}
+
+#message {
+    min-height: 10rem;
+}
+
+label {
+    width: max-content;
+}
