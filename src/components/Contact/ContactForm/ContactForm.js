@@ -13,7 +13,7 @@ const ContactForm = () => {
         "service_7g1ziij",
         "template_pk9i5io",
         e.target,
-        "DuENgvCgD4qDCC5te"
+        process.env.REACT_APP_MY_ID
       )
       .then(
         (res) => {
@@ -23,6 +23,7 @@ const ContactForm = () => {
           console.log(error.text);
         }
       );
+    e.target.reset();
   };
 
   return (
