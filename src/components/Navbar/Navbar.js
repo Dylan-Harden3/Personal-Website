@@ -41,7 +41,10 @@ const Navbar = (props) => {
         } navbar-mobile p-4 bg-altBlue sticky top-0`}
         onClick={toggleMobileMenu}
       >
-        <img src={require("../../assets/icons/navbar-open.svg").default} />
+        <img
+          src={require("../../assets/icons/navbar-open.svg").default}
+          alt=""
+        />
       </div>
       <div
         className={`${
@@ -66,9 +69,9 @@ const Navbar = (props) => {
             // TODO: check with react-scroll
             linkNames.map((link, index) => {
               return (
-                <a key={index} onClick={toggleMobileMenu}>
+                <p key={index} onClick={toggleMobileMenu}>
                   {link}
-                </a>
+                </p>
               );
             })
           }

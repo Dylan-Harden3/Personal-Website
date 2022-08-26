@@ -33,6 +33,7 @@ const ProjectTile = (props) => {
         <img
           src={thumbnails[props.thumbnail]}
           className="rounded-md aspect-square"
+          alt=""
         ></img>
       </div>
     </div>

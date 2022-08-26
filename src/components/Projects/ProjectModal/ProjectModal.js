@@ -1,7 +1,6 @@
 import SubHeader from "../../Utils/SubHeader/SubHeader";
 import ProjectIcons from "../ProjectIcons/ProjectIcons";
 import ModalAction from "./ModalAction/ModalAction";
-import ModalPictures from "./ModalPictures/ModalPictures";
 
 import travelez from "../../../assets/projects/travelez/thumbnail.png";
 import personalWebsite from "../../../assets/projects/personalwebsite/thumbnail.png";
@@ -61,7 +60,11 @@ const ProjectModal = ({ modalData, setModalData }) => {
             </div>
           </div>
           <div className="md:max-w-[35%] hidden md:flex flex-col items-end">
-            <img src={pictures[modalData.thumbnail]} className="rounded-md" />
+            <img
+              src={pictures[modalData.thumbnail]}
+              className="rounded-md"
+              alt=""
+            />
           </div>
         </div>
       </div>
