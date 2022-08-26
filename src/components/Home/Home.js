@@ -3,6 +3,7 @@ import Scrolldown from "./Scrolldown/Scrolldown";
 import Tooltip from "../Utils/Tooltip/Tooltip";
 import "./Home.css";
 import { Link } from "react-scroll";
+import resume from "../../assets/Dylan Harden.pdf";
 
 const Home = () => {
   // TODO: add animation for buttons
@@ -34,7 +35,12 @@ const Home = () => {
                 />
               </Link>
               <div className="flex justify-evenly items-center border-2 ml-0 sm:ml-6 mt-4 sm:mt-0 w-36 h-10 sm:w-44 sm:h-12 rounded-lg hover:cursor-pointer">
-                <a className=" text-md sm:text-xl" href="../../assets/me.jpg">
+                <a
+                  className=" text-md sm:text-xl"
+                  href={resume}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Resume
                 </a>
                 <img
