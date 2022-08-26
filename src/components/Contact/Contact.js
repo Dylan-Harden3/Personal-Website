@@ -15,12 +15,14 @@ const Contact = () => {
               <img
                 src={contactIcons.linkedin}
                 className="h-6 md:h-10 hover:cursor-pointer"
+                alt="linkedin"
               />
             </a>
             <a href="https://github.com/Dylan-Harden3">
               <img
                 src={contactIcons.github}
                 className="h-6 md:h-10 hover:cursor-pointer"
+                alt="github"
               />
             </a>
           </div>

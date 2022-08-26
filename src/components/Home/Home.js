@@ -30,11 +30,19 @@ const Home = () => {
                 >
                   Learn More
                 </Link>
-                <img src={require("../../assets/icons/send.svg").default} />
+                <img
+                  src={require("../../assets/icons/send.svg").default}
+                  alt=""
+                />
               </div>
               <div className="flex justify-evenly items-center border-2 ml-0 sm:ml-6 mt-4 sm:mt-0 w-36 h-10 sm:w-44 sm:h-12 rounded-lg hover:cursor-pointer">
-                <a className=" text-md sm:text-xl">Resume</a>
-                <img src={require("../../assets/icons/download.svg").default} />
+                <a className=" text-md sm:text-xl" href="../../assets/me.jpg">
+                  Resume
+                </a>
+                <img
+                  src={require("../../assets/icons/download.svg").default}
+                  alt=""
+                />
               </div>
             </div>
           </div>
@@ -42,6 +50,7 @@ const Home = () => {
             <img
               src={require("../../assets/homeImg.svg").default}
               className="w-80 hidden md:block"
+              alt=""
             />
           </div>
         </div>
