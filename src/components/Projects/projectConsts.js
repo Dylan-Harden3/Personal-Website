@@ -1,5 +1,4 @@
 const projects = [
-  // TODO: Update actual descriptions
   // TODO: Update demo links and make them if necessary
   // TODO: Spellcheck
   // TODO: add additional projects

@@ -19,7 +19,7 @@ const ProjectModal = ({ modalData, setModalData }) => {
     freelook,
     rasterizer,
     database,
-  ]; // TODO add rasterizer image with good bg, as well as others
+  ]; // TODO add better thumbnails (backgrounds)
 
   return (
     <div

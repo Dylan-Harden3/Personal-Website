@@ -8,8 +8,6 @@ import database from "../../../assets/projects/database/thumbnail.png";
 import ProjectIcons from "../ProjectIcons/ProjectIcons";
 
 const ProjectTile = (props) => {
-  // TODO: implement modal
-
   const thumbnails = [
     travelez,
     horticulture,
@@ -18,7 +16,7 @@ const ProjectTile = (props) => {
     freelook,
     rasterizer,
     database,
-  ]; // TODO add rasterizer image with good bg, as well as others
+  ];
 
   return (
     <div

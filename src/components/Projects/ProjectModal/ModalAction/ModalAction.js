@@ -1,5 +1,4 @@
 const ModalAction = ({ actionType, actionLink }) => {
-  // TODO: add icons for links
   return (
     <a
       href={actionLink}

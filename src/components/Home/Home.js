@@ -10,7 +10,7 @@ const Home = () => {
   // TODO: double check Im vs I'm
   return (
     <>
-      <section id="Home">
+      <section id="Home" className="pb-32">
         <div className="section-container flex-col justify-center md:flex-row md:flex md:justify-between items-center pt-24 md:pt-32">
           <div className="text-center md:text-left">
             <h4 className="text-xl sm:text-2xl">Howdy, I'm</h4>
@@ -20,21 +20,19 @@ const Home = () => {
               <Tooltip content="Graduating in May 2023!" /> at Texas A&M.
             </p>
             <div className="mt-4 flex flex-col sm:flex-row items-center max-w-fit md:max-w-none mx-auto w-100">
-              <div className="flex justify-evenly items-center bg-lightBlue w-36 h-10 sm:w-44 sm:h-12 rounded-lg hover:cursor-pointer">
-                <Link
-                  duration={100}
-                  to="About"
-                  offset={-200}
-                  smooth
-                  className="text-md sm:text-xl"
-                >
-                  Learn More
-                </Link>
+              <Link
+                duration={100}
+                to="About"
+                offset={-200}
+                smooth
+                className="flex justify-evenly items-center bg-lightBlue w-36 h-10 sm:w-44 sm:h-12 rounded-lg hover:cursor-pointer"
+              >
+                <p className="text-md sm:text-xl">Learn More</p>
                 <img
                   src={require("../../assets/icons/send.svg").default}
                   alt=""
                 />
-              </div>
+              </Link>
               <div className="flex justify-evenly items-center border-2 ml-0 sm:ml-6 mt-4 sm:mt-0 w-36 h-10 sm:w-44 sm:h-12 rounded-lg hover:cursor-pointer">
                 <a className=" text-md sm:text-xl" href="../../assets/me.jpg">
                   Resume

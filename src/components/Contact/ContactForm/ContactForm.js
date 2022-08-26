@@ -1,7 +1,6 @@
 import "./ContactForm.css";
 import emailjs from "emailjs-com";
 
-// TODO: move keys to env file
 // TODO: add icon, animation for send
 
 const ContactForm = () => {
