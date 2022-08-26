@@ -11,6 +11,10 @@ const Navbar = (props) => {
 
   const linkNames = ["Home", "About", "Skills", "Projects", "Contact"];
 
+  function handleSetActive(to) {
+    setmobileMenu(true);
+  }
+
   return (
     <>
       <nav className="w-100 bg-altBlue">
@@ -65,16 +69,22 @@ const Navbar = (props) => {
           />
         </svg>
         <ul className="mobile-links flex flex-col text-center">
-          {
-            // TODO: check with react-scroll
-            linkNames.map((link, index) => {
-              return (
-                <p key={index} onClick={toggleMobileMenu}>
-                  {link}
-                </p>
-              );
-            })
-          }
+          {linkNames.map((link, index) => {
+            return (
+              <Link
+                key={index}
+                activeClass="font-extrabold border-b border-white"
+                duration={100}
+                smooth
+                spy
+                to={link}
+                offset={-600}
+                onSetActive={handleSetActive}
+              >
+                {link}
+              </Link>
+            );
+          })}
         </ul>
       </div>
     </>

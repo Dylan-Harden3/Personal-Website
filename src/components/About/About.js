@@ -6,9 +6,7 @@ import "./About.css";
 import Tooltip from "../Utils/Tooltip/Tooltip";
 
 const About = () => {
-  // TODO: add actual description
   // TODO: Double check Ims and spelling
-  // TODO: make icons not brute force
 
   return (
     <section id="About">
@@ -17,10 +15,10 @@ const About = () => {
           <div className="about-text">
             <Header text="About Me" />
             <p className="py-2 md:py-5">
-              I enjoy working hard and pursuing difficult tasks. During my time
-              learning to code I have fallen in love with how this applies to
-              software development. Here you can find my skills and some of my
-              favorite projects I have created.
+              I enjoy working hard and pursuing difficult challenges. During my
+              time learning to code I have fallen in love with how this applies
+              to software development. Here you can find my skills and some of
+              my favorite projects I have created.
             </p>
           </div>
           <div className="about-hobbies">

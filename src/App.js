@@ -6,12 +6,10 @@ import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 
-// TODO: go through and save all files
-// TODO: fix all warnings
 // TODO: Move all consts to const files
-// TODO: add links
 // TODO: check all text
 // TODO: add animatons
+// TODO: fix readme
 
 function App() {
   return (

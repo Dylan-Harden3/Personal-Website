@@ -1,8 +1,6 @@
 import { Link } from "react-scroll";
 import "./Scrolldown.css";
 
-// TODO: Link to about
-
 const Scrolldown = () => {
   return (
     <Link

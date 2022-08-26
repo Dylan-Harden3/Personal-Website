@@ -1,5 +1,3 @@
-// TODO : fix smaller icons
-
 const icons = {
   html: require("../../../assets/icons/html.svg").default,
   css: require("../../../assets/icons/css.svg").default,
