@@ -2,9 +2,10 @@ import travelez from "../../../assets/projects/travelez/thumbnail.png";
 import personalWebsite from "../../../assets/projects/personalwebsite/thumbnail.png";
 import raytracer from "../../../assets/projects/raytracer/thumbnail.PNG";
 import horticulture from "../../../assets/projects/horticulture/Hort2.PNG";
-import freelook from "../../../assets/projects/freelook/thumbnail.PNG";
+import freelook from "../../../assets/projects/freelook/thumbnail.gif";
 import rasterizer from "../../../assets/projects/rasterizer/thumbnail.PNG";
 import database from "../../../assets/projects/database/thumbnail.png";
+import shaders from "../../../assets/projects/shaders/thumbnail.gif";
 import ProjectIcons from "../ProjectIcons/ProjectIcons";
 
 const ProjectTile = (props) => {
@@ -16,6 +17,7 @@ const ProjectTile = (props) => {
     freelook,
     rasterizer,
     database,
+    shaders,
   ];
 
   return (

@@ -6,9 +6,10 @@ import travelez from "../../../assets/projects/travelez/thumbnail.png";
 import personalWebsite from "../../../assets/projects/personalwebsite/thumbnail.png";
 import raytracer from "../../../assets/projects/raytracer/thumbnail.PNG";
 import horticulture from "../../../assets/projects/horticulture/Hort2.PNG";
-import freelook from "../../../assets/projects/freelook/thumbnail.PNG";
+import freelook from "../../../assets/projects/freelook/thumbnail.gif";
 import rasterizer from "../../../assets/projects/rasterizer/thumbnail.PNG";
 import database from "../../../assets/projects/database/thumbnail.png";
+import shaders from "../../../assets/projects/shaders/thumbnail.gif";
 
 const ProjectModal = ({ modalData, setModalData }) => {
   const pictures = [
@@ -19,6 +20,7 @@ const ProjectModal = ({ modalData, setModalData }) => {
     freelook,
     rasterizer,
     database,
+    shaders,
   ]; // TODO add better thumbnails (backgrounds)
 
   return (
@@ -56,6 +58,12 @@ const ProjectModal = ({ modalData, setModalData }) => {
               )}
               {modalData.code && (
                 <ModalAction actionType="Code" actionLink={modalData.code} />
+              )}
+              {modalData.learnMore && (
+                <ModalAction
+                  actionType="Learn More"
+                  actionLink={modalData.learnMore}
+                />
               )}
             </div>
           </div>
