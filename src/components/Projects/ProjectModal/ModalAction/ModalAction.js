@@ -4,7 +4,9 @@ const ModalAction = ({ actionType, actionLink }) => {
       href={actionLink}
       target="_blank"
       className={`py-2 px-6 rounded-md ${
-        actionType === "Demo" ? "bg-lightBlue" : "border"
+        actionType === "Demo" || actionType === "Learn More"
+          ? "bg-lightBlue"
+          : "border"
       }`}
       rel="noreferrer"
     >

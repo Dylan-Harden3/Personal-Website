@@ -1,5 +1,5 @@
 const ProjectsNav = (props) => {
-  const projectFilters = ["All Projects", "Web Dev", "Assignments"];
+  const projectFilters = ["All Projects", "Web Dev", "Graphics"];
 
   return (
     <>

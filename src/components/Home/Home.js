@@ -34,20 +34,18 @@ const Home = () => {
                   alt=""
                 />
               </Link>
-              <div className="flex justify-evenly items-center border-2 ml-0 sm:ml-6 mt-4 sm:mt-0 w-36 h-10 sm:w-44 sm:h-12 rounded-lg hover:cursor-pointer">
-                <a
-                  className=" text-md sm:text-xl"
-                  href={resume}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Resume
-                </a>
+              <a
+                href={resume}
+                target="_blank"
+                rel="noreferrer"
+                className="flex justify-evenly items-center border-2 ml-0 sm:ml-6 mt-4 sm:mt-0 w-36 h-10 sm:w-44 sm:h-12 rounded-lg hover:cursor-pointer"
+              >
+                <p className=" text-md sm:text-xl">Resume</p>
                 <img
                   src={require("../../assets/icons/download.svg").default}
                   alt=""
                 />
-              </div>
+              </a>
             </div>
           </div>
           <div>
